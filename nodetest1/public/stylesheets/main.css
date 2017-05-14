@@ -6,7 +6,7 @@
 }
 
 .header{
-	background: url("static/h2.png");
+	background: url("../static/h2.png");
 	background-size: contain;
 	height: 25vh;
 	margin-bottom: 5vh;	

@@ -6,8 +6,15 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/helloworld', function(req, res) {
-    res.render('helloworld', { title: 'Hello, World!' });
+router.get('/main', function(req, res) {
+    var db = req.db;
+    var collection = db.get('postcollection');
+    console.log(collection);
+    collection.find({},{},function(e,docs){
+        res.render('main', {
+            "postlist" : docs
+        });
+    });
 });
 
 // GET Userlist page.
