@@ -1,0 +1,13 @@
+.container {
+	padding-right: 15vw;
+	padding-left: 15vw;
+	margin-right: auto;
+	margin-left: auto
+}
+
+.header{
+	background: url("../static/h2.png");
+	background-size: contain;
+	height: 25vh;
+	margin-bottom: 5vh;	
+}
