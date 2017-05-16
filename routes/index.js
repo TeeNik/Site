@@ -3,15 +3,11 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
-
-router.get('/main', function(req, res) {
     var db = req.db;
     var collection = db.get('postcollection');
     console.log(collection);
     collection.find({},{},function(e,docs){
-        res.render('main', {
+        res.render('index', {
             "postlist" : docs
         });
     });
