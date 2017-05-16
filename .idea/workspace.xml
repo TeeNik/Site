@@ -2,65 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f1f1d80-8fa9-4aab-95ee-4013c26827da" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/bin/www" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/WiredTiger" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/WiredTiger.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/WiredTiger.turtle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/WiredTiger.wt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/WiredTigerLAS.wt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/_mdb_catalog.wt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/collection-0--837059467104000536.wt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/collection-0--8545741669620361997.wt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/collection-2--8545741669620361997.wt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/collection-4--837059467104000536.wt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/collection-5--8545741669620361997.wt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/collection-8--837059467104000536.wt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/diagnostic.data/metrics.2017-05-13T01-02-13Z-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/diagnostic.data/metrics.2017-05-13T17-35-44Z-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/diagnostic.data/metrics.2017-05-13T17-54-11Z-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/diagnostic.data/metrics.2017-05-14T15-05-23Z-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/diagnostic.data/metrics.2017-05-15T20-16-43Z-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/index-1--837059467104000536.wt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/index-1--8545741669620361997.wt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/index-3--8545741669620361997.wt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/index-4--8545741669620361997.wt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/index-5--837059467104000536.wt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/index-6--8545741669620361997.wt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/index-9--837059467104000536.wt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/journal/WiredTigerLog.0000000005" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/journal/WiredTigerPreplog.0000000001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/journal/WiredTigerPreplog.0000000002" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/mongod.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/sizeStorer.wt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/data/storage.bson" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/npm-debug.log.992721446" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/public/static/cat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/public/static/h2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/public/static/header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/public/stylesheets/hexagons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/public/stylesheets/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/public/stylesheets/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/routes/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/routes/users.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/views/error.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/views/helloworld.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/views/index.jade" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/layout.jade" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/views/layout.jade" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/views/main.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/views/newuser.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodetest1/views/userlist.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/users.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/helloworld.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/main.jade" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/error.jade" afterPath="$PROJECT_DIR$/views/error.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="$PROJECT_DIR$/views/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.jade" afterPath="$PROJECT_DIR$/views/layout.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userlist.jade" afterPath="$PROJECT_DIR$/views/userlist.jade" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log.2457902056" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log.992721446" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,7 +35,7 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
+            <state relative-caret-position="544">
               <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
               <folding />
             </state>
@@ -119,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/views/index.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+              <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -227,9 +174,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -322,6 +267,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -768,11 +715,12 @@
       <workItem from="1494786800608" duration="1439000" />
       <workItem from="1494861716479" duration="3778000" />
       <workItem from="1494890139338" duration="1904000" />
+      <workItem from="1494932432513" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20760000" />
+    <option name="totallyTimeSpent" value="20774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1672" y="-8" width="1696" height="1026" extended-state="6" />
@@ -789,7 +737,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18231441" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18231441" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -819,73 +767,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nodetest1/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/views/newuser.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/views/userlist.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/views/layout.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/views/helloworld.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/views/error.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nodetest1/app.js" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/routes/index.js" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/views/newuser.jade" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/views/index.jade" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/views/userlist.jade" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/views/layout.jade" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/routes/users.js" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/views/helloworld.jade" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/views/error.jade" />
     <entry file="file://$PROJECT_DIR$/../lab2/about2.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -893,59 +783,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/views/layout.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/views/helloworld.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nodetest1/package.json" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/app.js" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/routes/index.js" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/views/index.jade" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/views/layout.jade" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/routes/users.js" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/views/helloworld.jade" />
     <entry file="file://$PROJECT_DIR$/../lab2/about2.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -960,133 +804,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/views/layout.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/views/helloworld.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/views/error.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/views/userlist.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nodetest1/views/layout.jade" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/views/helloworld.jade" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/views/error.jade" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/routes/users.js" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/views/userlist.jade" />
     <entry file="file://$PROJECT_DIR$/nodetest1/routes/hexagons.css" />
     <entry file="file://$PROJECT_DIR$/nodetest1/views/hexagons.css" />
     <entry file="file://$PROJECT_DIR$/nodetest1/hexagons.css" />
     <entry file="file://$PROJECT_DIR$/nodetest1/views/main.css" />
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/admin.html" />
-    <entry file="file://$PROJECT_DIR$/nodetest1/public/stylesheets/hexagons.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/views/newuser.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/public/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/views/main.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nodetest1/public/stylesheets/hexagons.css" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/routes/index.js" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/views/index.jade" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/views/newuser.jade" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/public/stylesheets/main.css" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/views/main.jade" />
     <entry file="file://$PROJECT_DIR$/npm-debug.log" />
     <entry file="file://$PROJECT_DIR$/nodetest1/npm-debug.log" />
-    <entry file="file://$PROJECT_DIR$/nodetest1/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodetest1/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nodetest1/app.js" />
+    <entry file="file://$PROJECT_DIR$/nodetest1/package.json" />
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
+        <state relative-caret-position="544">
           <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/helloworld.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/views/helloworld.jade" />
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,14 +881,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/main.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/views/main.jade" />
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1149,7 +893,7 @@
     <entry file="file://$PROJECT_DIR$/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,15 @@
+extends layout
+
+block content
+        .header
+        .container
+            ul#hexGrid
+                each p in postlist
+                    li.hex
+                        .hexIn
+                            a.hexLink(href='#')
+                                img(src=p.url, alt='')
+                                h1
+                                    = p.title
+                                p
+                                    = p.text
