@@ -25,5 +25,5 @@
 .right{
 	background: url("static/r.png");
 	background-repeat: repeat-y;
-	background-position: right ;
+	background-position: right top;
 }

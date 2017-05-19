@@ -1,13 +1,29 @@
-.container {
-	padding-right: 15vw;
-	padding-left: 15vw;
-	margin-right: auto;
-	margin-left: auto
-}
-
 .header{
 	background: url("../static/h2.png");
 	background-size: contain;
+	background-repeat:no-repeat;
 	height: 25vh;
 	margin-bottom: 5vh;	
+}
+
+.image{
+	max-width: 100%;
+	height: auto;
+}
+
+.grid{
+	display: grid;
+	
+	grid-template-columns: 15% 1fr 15%;
+}
+
+.left{
+	background: url("../static/l.png");
+	background-repeat: repeat-y;
+}
+
+.right{
+	background: url("../static/r.png");
+	background-repeat: repeat-y;
+	background-position: right top;
 }
