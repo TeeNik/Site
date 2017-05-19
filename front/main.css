@@ -3,6 +3,10 @@
 	padding-left: 15vw;
 	margin-right: auto;
 	margin-left: auto
+	
+}
+.outer{
+	
 }
 
 .col-left{
@@ -10,15 +14,19 @@
 	background: url("static/gex.png");
 }
 
+html, body{
+	height: 100%;
+}
+
 .col-left{
 	float: left;
 	width: 15%;
-	display: block;
-	margin: 0px auto;
+	height: 100%;
 	background: url("static/gex.png");
 }
 .col-center{
 	display: inline-block;
+	overflow: auto;
 	width: 70%;
 }
 .col-right{
@@ -28,40 +36,6 @@
 	margin: 0px auto;
 	background: url("static/gex.png");
 }*/
-
-.container {
-    width: 954px;
-    margin: 0px auto;
-    height: 100%;
-    border: 1px solid lime;
-    overflow: hidden;
-    position: relative;
-	text-align: center;
-}
-
-.col-left {
-    margin: 0px auto;
-    width: 5px;
-    border: 1px solid red;
-    float: left;
-    display: block;
-}
-
-.col-right {
-    margin: 0px auto;
-width: 5px;
-float: left;
-border: 1px solid blue;
-}
-
-.col-center {
-    width: 920px;
-    margin: 0px auto;
-    text-align: left;
-    background: #ffffff;
-    padding: 0px 10px;
-    float: left;
-}
 
 .header{
 	background: url("static/h2.png");
@@ -73,4 +47,14 @@ border: 1px solid blue;
 .image{
 	max-width: 100%;
 	height: auto;
+}
+
+.grid{
+	display: grid;
+	
+	grid-template-columns: 20% 1fr 20%;
+}
+
+.left{
+	background: url("static/gex.png");
 }
