@@ -1,45 +1,7 @@
-/*.container {
-	padding-right: 15vw;
-	padding-left: 15vw;
-	margin-right: auto;
-	margin-left: auto
-	
-}
-.outer{
-	
-}
-
-.col-left{
-	width: 20%;
-	background: url("static/gex.png");
-}
-
-html, body{
-	height: 100%;
-}
-
-.col-left{
-	float: left;
-	width: 15%;
-	height: 100%;
-	background: url("static/gex.png");
-}
-.col-center{
-	display: inline-block;
-	overflow: auto;
-	width: 70%;
-}
-.col-right{
-	float: right;
-	width: 15%;
-	display: block;
-	margin: 0px auto;
-	background: url("static/gex.png");
-}*/
-
 .header{
 	background: url("static/h2.png");
 	background-size: contain;
+	background-repeat:no-repeat;
 	height: 25vh;
 	margin-bottom: 5vh;	
 }
@@ -52,9 +14,16 @@ html, body{
 .grid{
 	display: grid;
 	
-	grid-template-columns: 20% 1fr 20%;
+	grid-template-columns: 15% 1fr 15%;
 }
 
 .left{
-	background: url("static/gex.png");
+	background: url("static/l.png");
+	background-repeat: repeat-y;
+}
+
+.right{
+	background: url("static/r.png");
+	background-repeat: repeat-y;
+	background-position: right ;
 }
