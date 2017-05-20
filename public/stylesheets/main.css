@@ -1,3 +1,8 @@
+body{
+	font-family: "PT Sans Narrow";
+	font-size: medium;
+}
+
 .header{
 	background: url("../static/h2.png");
 	background-size: contain;

@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    .header
+    .grid
+        .grid-item.grid-item1.left
+        .grid-item.grid-item2
+            img.image(src=post[n-1].url)
+            .post-container-text
+                pre= post[n-1].text
+        .grid-item.grid-item3.right

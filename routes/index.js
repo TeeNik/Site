@@ -13,6 +13,18 @@ router.get('/', function(req, res, next) {
     });
 });
 
+router.get('/:n', function(req, res, next) {
+    var db = req.db;
+    var collection = db.get('postcollection');
+    console.log(collection);
+    collection.find({},{},function(e,docs){
+        res.render('postpage', {
+            "post" : docs,
+            "n" : req.params.n
+        });
+    });
+});
+
 // GET Userlist page.
 router.get('/userlist', function(req, res) {
     var db = req.db;

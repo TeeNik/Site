@@ -1,18 +1,45 @@
 extends layout
 
 block content
-        .header
-        .grid
-            .grid-item.grid-item1.left
-            .grid-item.grid-item2
-                ul#hexGrid
-                    each p in postlist
-                        li.hex
-                            .hexIn
-                                a.hexLink(href='#')
-                                    img(src=p.url, alt='')
-                                    h1
-                                        = p.title
-                                    p
-                                        = p.short
-            .grid-item.grid-item3.right
+    .header
+    .grid
+        .grid-item.grid-item1.left
+        .grid-item.grid-item2
+            ul#hexGrid
+                each p in postlist
+                    li.hex
+                        .hexIn
+                            a.hexLink(href='#')
+                                img(src=p.url, alt='')
+                                h1
+                                    = p.title
+                                p
+                                    = p.short
+                each p in postlist
+                    li.hex
+                        .hexIn
+                            a.hexLink(href='#')
+                                img(src=p.url, alt='')
+                                h1
+                                    = p.title
+                                p
+                                    = p.short
+                each p in postlist
+                    li.hex
+                        .hexIn
+                            a.hexLink(href='#')
+                                img(src=p.url, alt='')
+                                h1
+                                    = p.title
+                                p
+                                    = p.short
+                each p in postlist
+                    li.hex
+                        .hexIn
+                            a.hexLink(href='#')
+                                img(src=p.url, alt='')
+                                h1
+                                    = p.title
+                                p
+                                    = p.short    
+        .grid-item.grid-item3.right
