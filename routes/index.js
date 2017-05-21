@@ -5,10 +5,15 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
     var db = req.db;
     var collection = db.get('postcollection');
-    console.log(collection);
+    /*console.log(collection);
     collection.find({},{},function(e,docs){
         res.render('index', {
             "postlist" : docs
+        });
+    });*/
+    collection.find({}, {sort: {"number":-1}}, function(e,docs){
+        res.render('index', {
+            "postlist" : docs,
         });
     });
 });
