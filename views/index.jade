@@ -9,37 +9,10 @@ block content
                 each p in postlist
                     li.hex
                         .hexIn
-                            a.hexLink(href='#')
+                            a.hexLink(href=p.number)
                                 img(src=p.url, alt='')
                                 h1
                                     = p.title
                                 p
                                     = p.short
-                each p in postlist
-                    li.hex
-                        .hexIn
-                            a.hexLink(href='#')
-                                img(src=p.url, alt='')
-                                h1
-                                    = p.title
-                                p
-                                    = p.short
-                each p in postlist
-                    li.hex
-                        .hexIn
-                            a.hexLink(href='#')
-                                img(src=p.url, alt='')
-                                h1
-                                    = p.title
-                                p
-                                    = p.short
-                each p in postlist
-                    li.hex
-                        .hexIn
-                            a.hexLink(href='#')
-                                img(src=p.url, alt='')
-                                h1
-                                    = p.title
-                                p
-                                    = p.short    
         .grid-item.grid-item3.right
