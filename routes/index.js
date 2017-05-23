@@ -5,13 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
     var db = req.db;
     var collection = db.get('postcollection');
-    /*console.log(collection);
-    collection.find({},{},function(e,docs){
-        res.render('index', {
-            "postlist" : docs
-        });
-    });*/
-    collection.find({}, {sort: {"number":-1}}, function(e,docs){
+	n.find({}, {sort: {"number":-1}}, function(e,docs){
         res.render('index', {
             "postlist" : docs,
         });
@@ -22,10 +16,9 @@ router.get('/:n', function(req, res, next) {
     var db = req.db;
     var collection = db.get('postcollection');
     console.log(collection);
-    collection.find({},{},function(e,docs){
+    collection.find({},{"number":req.params.n},function(e,docs){
         res.render('postpage', {
             "post" : docs,
-            "n" : req.params.n
         });
     });
 });
