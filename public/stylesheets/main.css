@@ -20,8 +20,8 @@ body{
 	display: grid;
 	
 	grid-template-columns: 15% 1fr 15%;
+	grid-template-rows: min(60vh);
 }
-
 .left{
 	background: url("../static/l.png");
 	background-repeat: repeat-y;
@@ -31,4 +31,12 @@ body{
 	background: url("../static/r.png");
 	background-repeat: repeat-y;
 	background-position: right top;
+}
+
+.text{
+	font-family: "PT Sans Narrow";
+	font-size: 20px; 
+	white-space: pre-wrap;
+    padding-left: 10%;
+    padding-right: 10%;
 }
