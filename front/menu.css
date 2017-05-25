@@ -24,7 +24,7 @@
     -moz-transition: right 0.3s;
     transition: right 0.3s;
     /* определяем цвет фона панели */
-    background: #16a085;
+    background: RGB(22, 160, 133, 0);
     /* поверх других элементов */
     z-index: 2000;
 }
@@ -47,7 +47,7 @@
     /* определяем цвет фона переключателя
      * чаще вчего в соответствии с цветом фона панели
     */
-    background: inherit;
+    background: RGB(22, 160, 133, 0);
     /* цвет текста */
     color: #dadada;
     /* вид курсора */
@@ -112,6 +112,7 @@
  */
 
 [id='nav-toggle']:checked ~ .nav {
+    background-color: RGB(22, 160, 133);
     right: 0;
     box-shadow:-4px 0px 20px 0px rgba(0,0,0, 0.5);
     -moz-box-shadow:-4px 0px 20px 0px rgba(0,0,0, 0.5);
@@ -307,7 +308,6 @@ body {
     display: inline-block;
     position: relative;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 1.2em;
     color: #dadada;
