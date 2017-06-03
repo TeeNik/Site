@@ -1,0 +1,10 @@
+.login-panel{
+    border-radius: 5px;
+    border-color: chocolate;
+    position: absolute;
+    padding-left: 40%;
+}
+
+.login-panel > input {
+    margin-bottom: 10px;
+}
