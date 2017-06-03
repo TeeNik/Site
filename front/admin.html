@@ -2,17 +2,17 @@
 <html lang="ru">
 
 <head>
-	<meta charset="utf-8" />
-	<title>No name</title>
-	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans+Narrow" />
-	<link rel="stylesheet" href="../public/stylesheets/main.css">
-	<link rel="stylesheet" href="../public/stylesheets/admin.css">
-	<link rel="icon" type="image/png" href="static/ic.png"> </head>
+    <meta charset="utf-8" />
+    <title>No name</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans+Narrow" />
+    <link rel="stylesheet" href="../public/stylesheets/main.css">
+    <link rel="stylesheet" href="../public/stylesheets/admin.css">
+    <link rel="icon" type="image/png" href="static/ic.png"> </head>
 
 <body>
-	<script src="../scripts/admin.js"></script>
-	<div class="header"></div>
-	<!--<div class="login-panel">
+    <script src="../scripts/admin.js"></script>
+    <div class="header"></div>
+    <!--<div class="login-panel">
 		<input type="text" placeholder="Логин">
 		<br>
 		<input type="password" placeholder="Пароль">
@@ -20,26 +20,27 @@
 		<input type="button" onclick="" value="Вход">
 		<br> 
 	</div>-->
-	<div class="post-panel">
-		<input id ="title" type="text" placeholder="Заголовок">
-		<br>
-		<input id ="short" type="text" placeholder="Краткое описание">
-		<br>
-		<textarea id ="posttext" placeholder="Текст" rows = "10"></textarea>
-		<br>
-		<select id="postType">
-			<option>People</option>
-			<option>Games</option>
-			<option>Comics</option>
-			<option>Life</option>
-			<option>Other</option>
-		</select>
-		<br>
-		<input id ="imageUrl" type="text" placeholder="Картинка">
-		<br>
-		<input type="button" onclick="createPost()" value="Сохранить">
-		<br> 
-	</div>
+    <div class="post-panel">
+        <form method="post" action="/addpost">
+            <input id="title" name="title" type="text" placeholder="Заголовок">
+            <br>
+            <input id="short" name="short" type="text" placeholder="Краткое описание">
+            <br>
+            <textarea id="posttext" name="posttext" placeholder="Текст" rows="10"></textarea>
+            <br>
+            <select id="postType" name="postType">
+                <option>People</option>
+                <option>Games</option>
+                <option>Comics</option>
+                <option>Life</option>
+                <option>Other</option>
+            </select>
+            <br>
+            <input id="imageUrl" name="imageUrl" type="text" placeholder="Картинка">
+            <br>
+            <button type="submit">Ввод</button>
+            <br> </form>
+    </div>
 </body>
 
 </html>

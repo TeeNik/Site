@@ -12,6 +12,12 @@ router.get('/', function(req, res, next) {
     });
 });
 
+
+
+router.get('/admin', function (req, res) {
+    res.render('admin', {});
+} );
+
 router.get('/:n', function(req, res, next) {
     var db = req.db;
     var collection = db.get('postcollection');
@@ -23,43 +29,22 @@ router.get('/:n', function(req, res, next) {
     });
 });
 
-// GET Userlist page.
-router.get('/userlist', function(req, res) {
-    var db = req.db;
-    var collection = db.get('usercollection');
-    console.log(collection);
-    collection.find({},{},function(e,docs){
-        res.render('userlist', {
-            "userlist" : docs
-        });
-    });
-});
-
-// GET New User page.
-router.get('/newuser', function(req, res) {
-    res.render('newuser', { title: 'Add New User' });
-});
-
-router.get('/admin', function (req, res) {
-    res.render('admin');
-} );
-
 router.post('/addpost', function(req, res){
 	var db = req.db;
 	
-	let title = document.getElementById("title").value;
-	let short = document.getElementById("short").value;
-	let posttext = document.getElementById("posttext").value;
-	let imageUrl = document.getElementById("imageUrl").value;
-	let postType = document.getElementById("postType").value;
+	let title = req.body.title;//  document.getElementById("title").value;
+	let short = req.body.short   ;//document.getElementById("short").value;
+	let posttext = req.body.posttext   ;//document.getElementById("posttext").value;
+	let imageUrl = req.body.imageUrl   ;//document.getElementById("imageUrl").value;
+	let postType = req.body.postType   ;//document.getElementById("postType").value;
 	
-	if(title == "" || short == "" || posttext == "" || imageUrl == "")
+	/*if(title == "" || short == "" || posttext == "" || imageUrl == "")
 	{
 		console.log("error");
 		return;
 	}
 	else
-	{
+	{*/
 		var collection = db.get('postcollection');
 		collection.insert({
         "title" : title,
@@ -76,10 +61,10 @@ router.post('/addpost', function(req, res){
         }
         else {
             // And forward to success page
-            res.redirect("userlist");
+            res.redirect("admin");
         }
     });
-	}
+	//}
 	
 	
 	
