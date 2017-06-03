@@ -1,0 +1,32 @@
+extends layout
+
+block content
+    script(src='../scripts/admin.js')
+    .header
+        //
+          <div class="login-panel">
+          <input type="text" placeholder="Логин">
+          <br>
+          <input type="password" placeholder="Пароль">
+          <br>
+          <input type="button" onclick="" value="Вход">
+          <br>
+          </div>
+    .post-panel
+        input#title(type='text', placeholder='Заголовок')
+        br
+        input#short(type='text', placeholder='Краткое описание')
+        br
+        textarea#posttext(placeholder='Текст', rows='10')
+        br
+        select#postType
+            option People
+            option Games
+            option Comics
+            option Life
+            option Other
+        br
+        input#imageUrl(type='text', placeholder='Картинка')
+        br
+        input(type='button', onclick='createPost()', value='Сохранить')
+        br

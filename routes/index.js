@@ -40,6 +40,52 @@ router.get('/newuser', function(req, res) {
     res.render('newuser', { title: 'Add New User' });
 });
 
+router.get('/admin', function (req, res) {
+    res.render('admin');
+} );
+
+router.post('/addpost', function(req, res){
+	var db = req.db;
+	
+	let title = document.getElementById("title").value;
+	let short = document.getElementById("short").value;
+	let posttext = document.getElementById("posttext").value;
+	let imageUrl = document.getElementById("imageUrl").value;
+	let postType = document.getElementById("postType").value;
+	
+	if(title == "" || short == "" || posttext == "" || imageUrl == "")
+	{
+		console.log("error");
+		return;
+	}
+	else
+	{
+		var collection = db.get('postcollection');
+		collection.insert({
+        "title" : title,
+        "short" : short,
+        "text" : posttext,
+        "theme" : postType,
+        "url" : imageUrl,
+        "date" : (new Date()).toJSON(),
+		"number": collection.count(),
+    }, function (err, doc) {
+        if (err) {
+            // If it failed, return error
+            res.send("There was a problem adding the information to the database.");
+        }
+        else {
+            // And forward to success page
+            res.redirect("userlist");
+        }
+    });
+	}
+	
+	
+	
+	
+});
+
 // POST to Add User Service
 router.post('/adduser', function(req, res) {
 
