@@ -1,35 +1,35 @@
 extends layout
 
 block content
-    .header
-    .grid
-        .grid-item.grid-item1.left
-        .grid-item.grid-item2
-            ul#hexGrid
-                each p in postlist
-                    li.hex
-                        .hexIn
-                            a.hexLink(href=p.number)
-                                img(src=p.url, alt='')
-                                h1
-                                    = p.title
-                                p
-                                    = p.short
-        .grid-item.grid-item3.right
-    input#nav-toggle(type='checkbox', hidden='')
-    nav.nav
-      label.nav-toggle(for='nav-toggle', onclick='')
-      h2.logo
-        a(href='') TeeSite
-      ul
-        li
-          a(target='_blank', href='https://teesite.herokuapp.com/') Главная
-        li
-          a(target='_blank', href='#2') О нас
-        li
-          a(target='_blank', href='https://github.com/TeeNik') Код
-        li
-          a(target='_blank', href='https://www.twitch.tv/') Twitch
-        li
-          a(target='_blank', href='https://vk.com/teenik3315') Vk
-    .mask-content
+	.header
+	.grid
+		.grid-item.grid-item1.left
+		.grid-item.grid-item2
+			ul#hexGrid
+				each p in postlist
+					li.hex
+						.hexIn
+							a.hexLink(href=p.number)
+								img(src=p.url, alt='')
+								h1
+									= p.title
+								p
+									= p.short
+		.grid-item.grid-item3.right
+	input#nav-toggle(type='checkbox', hidden='')
+	nav.nav
+		label.nav-toggle(for='nav-toggle', onclick='')
+		h2.logo
+			a(href='') TeeSite
+		ul
+			li
+				a(target='_blank', href='https://teesite.herokuapp.com/') Главная
+			li
+				a(target='_blank', href='#2') О нас
+			li
+				a(target='_blank', href='https://github.com/TeeNik') Код
+			li
+				a(target='_blank', href='https://www.twitch.tv/') Twitch
+			li
+				a(target='_blank', href='https://vk.com/teenik3315') Vk
+	.mask-content
