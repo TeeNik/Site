@@ -8,4 +8,6 @@ block content
             img.image(src=post[n-1].url)
             .post-container-text
                 pre.text= post[n-1].text
+            #disqus_thread
         .grid-item.grid-item3.right
+        script(src="scripts/disqus.js")
