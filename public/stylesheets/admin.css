@@ -27,7 +27,7 @@
 .post-panel{
 	font-family: "PT Sans Narrow";
 	width: 40vw;
-    height: 40vh;
+    height: 50vh;
 
     position: absolute;
     top:0;
@@ -40,11 +40,21 @@
     border: solid #1aa3ff 3px;
 }
 
-.post-panel input, textarea{
+.post-panel input, select, button{
 	font-size: 20px;
 	font-family: "PT Sans Narrow";
 	width: 38vw;
 	height: 3vh;
+	margin-top: 1vh;
+	margin-left: 1vw;
+    margin-bottom: 1vh;
+}
+
+.post-panel textarea{
+	font-size: 20px;
+	font-family: "PT Sans Narrow";
+	width: 38vw;
+	height: 20vh;
 	margin-top: 1vh;
 	margin-left: 1vw;
     margin-bottom: 1vh;
