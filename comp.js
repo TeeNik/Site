@@ -1,7 +1,9 @@
-import HexGrid from './hexGrid.js'
+import React from 'react'
 import ReactDOM from 'react-dom'
+import HexGrid from './components/hexGrid.js'
 
-ReactDOM.render(
+
+ReactDOM.render( 
 	<HexGrid/>,
 	document.getElementById('hexGrid')
 );

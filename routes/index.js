@@ -6,6 +6,8 @@ router.get('/', function(req, res, next) {
     var db = req.db;
     var collection = db.get('postcollection');
 	collection.find({}, {sort: {"number":-1}}, function(e,docs){
+		posts = docs;
+		console.log(posts);
         res.render('index', {
             "postlist" : docs,
         });
