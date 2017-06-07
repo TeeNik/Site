@@ -4,7 +4,8 @@ block content
     .grid
         .grid-item.grid-item1.left
         .grid-item.grid-item2
-            img.image(src=post[n-1].url)
+            .imgCenter
+                img.image(src=post[n-1].url)
             .post-container-text
                 pre.text= post[n-1].text
             #disqus_thread

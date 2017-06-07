@@ -4,7 +4,7 @@ import Hex from './hex.js'
 export default class HexGrid extends React.Component {
 	render(){
 		return (
-			postlist.map(function(el){
+			req.db.get('postcollection').find({}, {sort: {"number":-1}}).map(function(el){
 				return (
 					<Hex
 						number = {el.number}
