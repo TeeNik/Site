@@ -10,10 +10,12 @@ block content
 						.hexIn
 							a.hexLink(href=p.number)
 								img(src=p.url, alt='')
-								h1
+								h1.upperH1
 									= p.title
-								p
+								h1.downH1
 									= p.short
+								p.downP
+									= p.author
 		.grid-item.grid-item3.right
 	input#nav-toggle(type='checkbox', hidden='')
 	nav.nav

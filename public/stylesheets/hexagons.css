@@ -42,6 +42,7 @@
   outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
 }
 .hexLink {
+	
     display:block;
     width: 100%;
     height: 100%;
@@ -64,8 +65,29 @@
       -ms-transform: rotate3d(0,0,0,0deg);
           transform: rotate3d(0,0,0,0deg);
 }
+.upperH1{
+  top:43%;
+  width: 100%;
+  box-sizing:border-box;
+  font-weight: 300;
+	  -webkit-transform:translate3d(0,0,0);
+      -ms-transform:translate3d(0,0,0);
+          transform:translate3d(0,0,0);
+}
 
-.hex h1, .hex p {
+.upperP{
+  width: 100%;
+  padding: 5%;
+  top: 50%;
+  padding-bottom:50%;
+  box-sizing:border-box;
+  font-weight: 300;
+	  -webkit-transform:translate3d(0,0,0);
+      -ms-transform:translate3d(0,0,0);
+          transform:translate3d(0,0,0);
+}
+
+.downH1, .downP {
   width: 100%;
   padding: 5%;
   box-sizing:border-box;
@@ -74,7 +96,7 @@
   -webkit-transition:  -webkit-transform .2s ease-out, opacity .3s ease-out;
           transition:          transform .2s ease-out, opacity .3s ease-out;
 }
-.hex h1 {
+.downH1 {
   bottom: 50%;
   padding-top:50%;
   font-size: 1.5em;
@@ -83,7 +105,7 @@
       -ms-transform:translate3d(0,-100%,0);
           transform:translate3d(0,-100%,0);
 }
-.hex h1::after {
+.downH1::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -92,7 +114,7 @@
   text-align: center;
   border-bottom: 1px solid #fff;
 }
-.hex p {
+.downP {
   top: 50%;
   padding-bottom:50%;
   -webkit-transform:translate3d(0,100%,0);
@@ -102,11 +124,16 @@
 
 
 /*** HOVER EFFECT  **********************************************************************/
-.hexLink:hover h1, .hexLink:focus h1,
-.hexLink:hover p, .hexLink:focus p{
+.hexLink:hover .downH1, .hexLink:focus .downH1,
+.hexLink:hover .downP, .hexLink:focus .downP{
   -webkit-transform:translate3d(0,0,0);
       -ms-transform:translate3d(0,0,0);
           transform:translate3d(0,0,0);
+}
+
+.hexLink:hover .upperH1{
+	transition: 0.5s;
+	opacity: 0;
 }
 
 /*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
