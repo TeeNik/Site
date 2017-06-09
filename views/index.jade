@@ -8,14 +8,15 @@ block content
 				each p in postlist
 					li.hex
 						.hexIn
-							a.hexLink(href=p.number)
+							.hexLink(onclick="document.location.href = '../post/#{p.number}'")
 								img(src=p.url, alt='')
 								h1.upperH1
 									= p.title
 								h1.downH1
 									= p.short
-								p.downP
-									= p.author
+								.downP
+									a(href='author/'+p.author)
+										= p.author
 		.grid-item.grid-item3.right
 	input#nav-toggle(type='checkbox', hidden='')
 	nav.nav

@@ -19,13 +19,24 @@ router.get('/admin', function (req, res) {
     res.render('admin', {});
 } );
 
-router.get('/:n', function(req, res, next) {
+router.get('/post/:n', function(req, res, next) {
     var db = req.db;
     var collection = db.get('postcollection');
     collection.find({}, {}, function(e,docs){
         res.render('postpage', {
             "post" : docs,
             "n": req.params.n,
+        });
+    });
+});
+
+router.get('/author/:n', function(req, res, next) {
+    var db = req.db;
+    var collection = db.get('postcollection');
+    collection.find({"author": req.params.n}, {sort: {"number":-1}}, function(e,docs){
+        posts = docs;
+        res.render('index', {
+            "postlist" : docs,
         });
     });
 });
