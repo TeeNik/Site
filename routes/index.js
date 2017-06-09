@@ -34,19 +34,20 @@ router.get('/:n', function(req, res, next) {
 router.post('/addpost', function(req, res){
 	var db = req.db;
 	
-	let title = req.body.title;//  document.getElementById("title").value;
-	let short = req.body.short   ;//document.getElementById("short").value;
-	let posttext = req.body.posttext   ;//document.getElementById("posttext").value;
-	let imageUrl = req.body.imageUrl   ;//document.getElementById("imageUrl").value;
-	let postType = req.body.postType   ;//document.getElementById("postType").value;
+	let title = req.body.title;
+	let short = req.body.short;
+	let posttext = req.body.posttext;  
+	let imageUrl = req.body.imageUrl;   
+	let postType = req.body.postType;   
+	let author = req.body.author;   
 	
-	/*if(title == "" || short == "" || posttext == "" || imageUrl == "")
+	if(title == "" || short == "" || posttext == "" || imageUrl == "")
 	{
-		console.log("error");
+		alert("Заполните все поля");
 		return;
 	}
 	else
-	{*/
+	{
 		var collection = db.get('postcollection');
 		collection.insert({
         "title" : title,
@@ -56,6 +57,7 @@ router.post('/addpost', function(req, res){
         "url" : imageUrl,
         "date" : (new Date()).toJSON(),
 		"number": collection.count(),
+		"author": author
     }, function (err, doc) {
         if (err) {
             // If it failed, return error
