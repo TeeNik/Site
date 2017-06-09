@@ -276,3 +276,7 @@ body {
     -webkit-transition: opacity .5s, visibility .5s;
     transition: opacity .5s, visibility .5s;
 }
+
+.mask-content:active {
+	
+}
