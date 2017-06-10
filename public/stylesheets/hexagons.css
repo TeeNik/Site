@@ -77,20 +77,9 @@
 }
 
 .upperH1 {
+	cursor: default;
 	top: 43%;
 	width: 100%;
-	box-sizing: border-box;
-	font-weight: 300;
-	-webkit-transform: translate3d(0, 0, 0);
-	-ms-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
-}
-
-.upperP {
-	width: 100%;
-	padding: 5%;
-	top: 50%;
-	padding-bottom: 50%;
 	box-sizing: border-box;
 	font-weight: 300;
 	-webkit-transform: translate3d(0, 0, 0);
