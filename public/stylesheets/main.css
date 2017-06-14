@@ -12,8 +12,9 @@ body{
 }
 
 .image{
-	max-width: 100%;
+	width: 70%;
 	height: auto;
+	max-height: 60vh;
 }
 
 .grid{
@@ -37,22 +38,34 @@ body{
 	font-family: "PT Sans Narrow";
 	font-size: 20px; 
 	white-space: pre-wrap;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .imgCenter{
+	color: white;
+	font-size: 2vw;
+	vertical-align: middle;
 	text-align: center;
+	margin-left: 15%;
+	float: left;
+	background-size: 100%;
+	width: 70%;
+	text-align: center;
+	background-image: url(../static/hex.jpg);
+	height: 50vh;
+	background-repeat: no-repeat;
 }
 
 iframe{
 	float: left;
-	margin-left: 10%;
+	margin-left: 15%;
 	margin-bottom: 1vh;
-	height: 30vw;
-	width: 80%;
+	height: 50vh;
+	width: 70%;
 }
 
-li{
-	margin: 0px;
+ul.text li{
+	margin-left: 1vw;
+	margin-bottom: -40px;
 }
