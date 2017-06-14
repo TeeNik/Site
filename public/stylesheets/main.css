@@ -37,10 +37,22 @@ body{
 	font-family: "PT Sans Narrow";
 	font-size: 20px; 
 	white-space: pre-wrap;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .imgCenter{
 	text-align: center;
+}
+
+iframe{
+	float: left;
+	margin-left: 10%;
+	margin-bottom: 1vh;
+	height: 30vw;
+	width: 80%;
+}
+
+li{
+	margin: 0px;
 }
