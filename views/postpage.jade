@@ -5,9 +5,9 @@ block content
         .grid-item.grid-item1.left
         .grid-item.grid-item2
             .imgCenter
-                img.image(src=post[n-1].url)
-            .post-container-text
-                pre.text= post[n-1].text
+                .imgCenter(style='background-image: url(#{post[n-1].url});')
+            #post-content
+                != post[n-1].text
             #disqus_thread
         .grid-item.grid-item3.right
         script(src="../scripts/disqus.js")
