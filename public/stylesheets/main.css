@@ -34,7 +34,7 @@ body{
 	background-position: right top;
 }
 
-.text{
+.text p, ul{
 	font-family: "PT Sans Narrow";
 	font-size: 20px; 
 	white-space: pre-wrap;
@@ -64,7 +64,7 @@ iframe{
 	width: 70%;
 }
 
-ul.text li{
+.text ul{
 	margin-left: 1vw;
 	margin-bottom: -2vh;
 }
