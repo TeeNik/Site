@@ -34,15 +34,14 @@ body{
 	background-position: right top;
 }
 
-.text p, ul{
-	font-family: "PT Sans Narrow";
-	font-size: 20px; 
+.text{
+
 	white-space: pre-wrap;
     padding-left: 20%;
     padding-right: 20%;
 }
 
-.imgCenter{
+.mainImg{
 	color: white;
 	font-size: 2vw;
 	vertical-align: middle;
@@ -56,15 +55,25 @@ body{
 	background-repeat: no-repeat;
 }
 
-iframe{
-	float: left;
-	margin-left: 15%;
-	margin-bottom: 1vh;
-	height: 50vh;
-	width: 70%;
+.post-content{
+	font-family: "PT Sans Narrow";
+	font-size: 20px; 
 }
 
-.text ul{
-	margin-left: 1vw;
-	margin-bottom: -2vh;
+.post-content p, ul{
+	padding-left: 20%;
+    padding-right: 20%;
+}
+
+.post-content li{
+	margin-left: 2vw;
+	margin-right: 2vw;
+}
+
+iframe{
+	float: left;
+	margin-bottom: 1vh;
+	height: 50vh;
+	margin-left: 15%;
+	width: 70%;
 }
