@@ -60,7 +60,7 @@ body{
 	font-size: 20px; 
 }
 
-.post-content p, ul{
+.post-content p, .post-content ul{
 	padding-left: 20%;
     padding-right: 20%;
 }

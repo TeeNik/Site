@@ -4,8 +4,8 @@ block content
     .grid
         .grid-item.grid-item1.left
         .grid-item.grid-item2
-            .imgCenter(style='background-image: url(#{post[n-1].url});')
-            #post-content.text
+            #post-content.post-content
+                .mainImg(style='background-image: url(#{post[n-1].url});')
                 != post[n-1].text
             #disqus_thread
         .grid-item.grid-item3.right
