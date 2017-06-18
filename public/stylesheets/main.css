@@ -70,7 +70,7 @@ body{
 	margin-right: 2vw;
 }
 
-iframe{
+.post-content img, iframe{
 	float: left;
 	margin-bottom: 1vh;
 	height: 50vh;
