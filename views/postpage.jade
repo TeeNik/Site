@@ -7,6 +7,23 @@ block content
             #post-content.post-content
                 .mainImg(style='background-image: url(#{post[n-1].url});')
                 != post[n-1].text
-            #disqus_thread
+                #disqus_thread
         .grid-item.grid-item3.right
-        script(src="../scripts/disqus.js")
+    input#nav-toggle(type='checkbox', hidden='')
+    nav.nav
+        label.nav-toggle(for='nav-toggle', onclick='')
+        h2.logo
+            a(href='') TeeSite
+        ul
+            li
+                a(target='_blank', href='https://teesite.herokuapp.com/') Главная
+            li
+                a(target='_blank', href='#2') О нас
+            li
+                a(target='_blank', href='https://github.com/TeeNik') Код
+            li
+                a(target='_blank', href='https://www.twitch.tv/') Twitch
+            li
+                a(target='_blank', href='https://vk.com/teenik3315') Vk
+    #mask-content.mask-content
+    script(src="../scripts/disqus.js")

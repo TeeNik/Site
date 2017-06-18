@@ -1,6 +1,6 @@
 body{
 	font-family: "PT Sans Narrow";
-	font-size: medium;
+	font-size: 1vw;
 }
 
 .header{
@@ -9,12 +9,6 @@ body{
 	background-repeat:no-repeat;
 	height: 25vh;
 	cursor: pointer;
-}
-
-.image{
-	width: 70%;
-	height: auto;
-	max-height: 60vh;
 }
 
 .grid{
@@ -35,7 +29,6 @@ body{
 }
 
 .text{
-
 	white-space: pre-wrap;
     padding-left: 20%;
     padding-right: 20%;
@@ -57,7 +50,7 @@ body{
 
 .post-content{
 	font-family: "PT Sans Narrow";
-	font-size: 20px; 
+	font-size: 1.3vw;
 }
 
 .post-content p, .post-content ul{
@@ -68,12 +61,19 @@ body{
 .post-content li{
 	margin-left: 2vw;
 	margin-right: 2vw;
+	list-style-image: url(../../static/li.png)
 }
 
-.post-content img, iframe{
+.post-content img, .post-content > iframe{
 	float: left;
 	margin-bottom: 1vh;
 	height: 50vh;
+	margin-left: 15%;
+	width: 70%;
+}
+
+#disqus_thread {
+	float: left;
 	margin-left: 15%;
 	width: 70%;
 }
