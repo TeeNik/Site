@@ -1,6 +1,9 @@
 body{
 	font-family: "PT Sans Narrow";
 	font-size: 1vw;
+	background-image: url(../static/back.jpg);
+	background-repeat:repeat-y;
+	background-size: 100%;
 }
 
 .header{
@@ -49,6 +52,7 @@ body{
 }
 
 .post-content{
+
 	font-family: "PT Sans Narrow";
 	font-size: 1.3vw;
 }
